@@ -13,26 +13,8 @@ body{
    background-size: cover;
    position: relative;
 }
-.video-bg{
-   position: absolute;
-   right: 0;
-   bottom: 0;
-   z-index: -1;
-}
-@media (min-aspect-ratio:16/9){
-   .video-bg{
-      width: 100%;
-      height: auto;
-   }
-}
-@media (max-aspect-ratio:16/9){
-   .video-bg{
-      width: auto;
-      height: 100%;
-   }
-}
 
-
+/* ---------- Nav Bar ---------- */
 nav{
    display: flex;
    padding: 2% 6%;
@@ -62,7 +44,7 @@ nav img{
    content: '';
    width: 0%;
    height: 2px;
-   background: #fff;
+   background: #00aedf;
    display: block;
    margin: auto;
    transition: 0.5s;
@@ -71,12 +53,35 @@ nav img{
    width: 100%;
 }
 
-@media (min-aspect-ratio: 16/9){
+
+
+
+
+/* ---------- Hero Video Backround ---------- */
+.video-bg{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
    .video-bg{
       width: 100%;
+      height: auto;
+   }
+}
+@media (max-aspect-ratio:16/9){
+   .video-bg{
+      width: auto;
+      height: 100%;
    }
 }
 
+
+
+
+
+/* ---------- Hero Text ---------- */
 .text-box{
    width: 90%;
    color: #fff;
@@ -108,13 +113,12 @@ nav img{
 }
 .hero-btn:hover {
    border: 1px solid #ffffff;
-   background: #000;
+   background: #00aedf;
    transition: 0.5s;
 }
 nav .fa{
    display: none;
 }
-
 @media(max-width: 700px){
    .text-box h1{
       font-size: 20px;
@@ -144,6 +148,9 @@ nav .fa{
       padding: 10px;
    }
 }
+
+
+
 
 
 
