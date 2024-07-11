@@ -160,9 +160,12 @@ nav .fa{
 
 /* ---------- info bar ---------- */
 .info-bar {
-   width: 80%;
+   width: 100%;
    margin: auto;
    text-align: center;
+   padding-top: 20px;
+   background-color:#00aedf;
+   padding-bottom: 20px;
 }
 h1 {
    font-size: 36px;
@@ -181,18 +184,18 @@ p {
 }
 .row {
    display: flex;
-   justify-content: space-between;
+   justify-content:center;
 }
 .reason {
-   flex-basis: 31%;
+   flex-basis: 30%;
    border-radius: 10px;
-   padding: 20px 12px;
-   box-sizing: border-box;
+   padding: 5px 20px;
+   box-sizing:border-box;
 }
 h3 {
    color: #ffffff;
    text-align: center;
-   font-weight: 600;
+   font-weight: 800;
    margin: 10px 0;
 }
 @media(max-width:700px){
@@ -209,13 +212,13 @@ h3 {
    max-width: 1400px;
    width: 90%;
    margin: auto;
+   padding-bottom: 20px;
 }
 .title{
    color: #fff;
    margin-bottom: 2rem;
    font-weight: 800;
    text-align: center;
-   padding-bottom: 50px;
 }
 .photo-gallery{
    display: flex;
