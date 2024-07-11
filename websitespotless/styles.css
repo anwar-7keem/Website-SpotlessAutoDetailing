@@ -206,7 +206,7 @@ h3 {
 
 /* ---------- collage ---------- */
 .container{
-   max-width: 1224px;
+   max-width: 1400px;
    width: 90%;
    margin: auto;
 }
@@ -232,3 +232,9 @@ h3 {
    border-radius: 5px;
    object-fit: cover;
 }
+
+
+
+
+
+/* ---------- testimonials ---------- */
