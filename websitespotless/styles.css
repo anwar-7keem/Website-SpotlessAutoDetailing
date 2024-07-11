@@ -163,11 +163,14 @@ nav .fa{
    width: 80%;
    margin: auto;
    text-align: center;
-   padding-top: 0px;
 }
 h1 {
    font-size: 36px;
-   font-weight: 600;
+   color: #fff;
+   margin-bottom: 2rem;
+   font-weight: 800;
+   text-align: center;
+   padding-top: 100px;
 }
 p {
    color: #ffffff;
@@ -177,14 +180,12 @@ p {
    padding: 10px;
 }
 .row {
-   margin-top: 5%;
    display: flex;
    justify-content: space-between;
 }
 .reason {
    flex-basis: 31%;
    border-radius: 10px;
-   margin-bottom: 5%;
    padding: 20px 12px;
    box-sizing: border-box;
 }
@@ -208,11 +209,13 @@ h3 {
    max-width: 1224px;
    width: 90%;
    margin: auto;
-   padding: 40px 0;
 }
 .title{
    color: #fff;
    margin-bottom: 2rem;
+   font-weight: 800;
+   text-align: center;
+   padding-bottom: 50px;
 }
 .photo-gallery{
    display: flex;
