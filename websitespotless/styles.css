@@ -243,17 +243,13 @@ nav .fa{
 
 /* ---------- footer---------- */
 .footer{
-   background-color: #00aedf;
-   display: flex;
+   background: #00aedf;
+   padding-top: 50px;
+   padding-bottom: 50px;
 }
-.footer img{
-   width: 300px;
-}
-.footer {
-   background-color: #00aedf;
+.footer-container{
+   width: 1400px;
+   margin: auto;
    display: flex;
-   flex-wrap: wrap;
    justify-content: space-around;
-   padding: 40px 20px;
-   text-align: center;
 }
