@@ -167,7 +167,7 @@ nav .fa{
    background-color:#00aedf;
    padding-bottom: 20px;
 }
-h1 {
+.info-bar h1 {
    font-size: 36px;
    color: #fff;
    margin-bottom: 2rem;
@@ -175,7 +175,7 @@ h1 {
    text-align: center;
    padding-top: 100px;
 }
-p {
+.info-bar p {
    color: #ffffff;
    font-size: 14px;
    font-weight: 300;
@@ -184,7 +184,7 @@ p {
 }
 .row {
    display: flex;
-   justify-content:center;
+   justify-content:space-around;
 }
 .reason {
    flex-basis: 30%;
@@ -192,7 +192,7 @@ p {
    padding: 5px 20px;
    box-sizing:border-box;
 }
-h3 {
+.info-bar h3 {
    color: #ffffff;
    text-align: center;
    font-weight: 800;
@@ -241,4 +241,19 @@ h3 {
 
 
 
-/* ---------- testimonials ---------- */
+/* ---------- footer---------- */
+.footer{
+   background-color: #00aedf;
+   display: flex;
+}
+.footer img{
+   width: 300px;
+}
+.footer {
+   background-color: #00aedf;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 40px 20px;
+   text-align: center;
+}
