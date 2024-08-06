@@ -56,24 +56,39 @@ nav img{
 
  /* ---------- Packagess---------- */
 .packages{
-    padding-top: 30px;
+    padding-top: 40px;
 }
 .package{
     background-color: #000000;
-    padding: 20px 20px 20px 20px;
-    width: 470px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    width: 450px;
     color: aliceblue;
+    text-align: center;
+}
+.list{
+    list-style:square;
 }
 .package-title {
     font-weight: 800;
     font-style: italic;
     color: #00aedf;
+    text-align: center;
+    padding-bottom: 10px;
 }
 .package-subtitle {
     font-weight: 640;
     font-style: italic;
+    padding-bottom: 5px;
 }
 .row{
     display: flex;
     justify-content: space-evenly;
+}
+.prices {
+    padding-top: 40px;
+    color: #00aedf;
+    text-align: center;
+    font-style: italic;
 }
